@@ -22,11 +22,12 @@ repositories {
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
     compile 'com.google.guava:guava:20.0'
+    compile 'org.mongodb:mongodb-driver:3.4.2'
 
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
 }
 
 // Define the main class for the application
-mainClassName = 'App'
+mainClassName = 'acquisition.App'
 
