@@ -1,4 +1,4 @@
-package Acquisition;
+package acquisition;
 
 import com.mongodb.MongoClient;
 
