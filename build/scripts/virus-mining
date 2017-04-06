@@ -64,7 +64,7 @@ case "`uname`" in
     ;;
 esac
 
-CLASSPATH=$APP_HOME/lib/virus-mining.jar:$APP_HOME/lib/guava-20.0.jar:$APP_HOME/lib/mongodb-driver-3.4.2.jar:$APP_HOME/lib/bson-3.4.2.jar:$APP_HOME/lib/mongodb-driver-core-3.4.2.jar
+CLASSPATH=$APP_HOME/lib/virus-mining.jar:$APP_HOME/lib/guava-20.0.jar:$APP_HOME/lib/mongodb-driver-3.4.2.jar:$APP_HOME/lib/twitter4j-core-4.0.4.jar:$APP_HOME/lib/twitter4j-stream-4.0.4.jar:$APP_HOME/lib/bson-3.4.2.jar:$APP_HOME/lib/mongodb-driver-core-3.4.2.jar
 
 # Determine the Java command to use to start the JVM.
 if [ -n "$JAVA_HOME" ] ; then

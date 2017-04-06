@@ -63,7 +63,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\virus-mining.jar;%APP_HOME%\lib\guava-20.0.jar;%APP_HOME%\lib\mongodb-driver-3.4.2.jar;%APP_HOME%\lib\bson-3.4.2.jar;%APP_HOME%\lib\mongodb-driver-core-3.4.2.jar
+set CLASSPATH=%APP_HOME%\lib\virus-mining.jar;%APP_HOME%\lib\guava-20.0.jar;%APP_HOME%\lib\mongodb-driver-3.4.2.jar;%APP_HOME%\lib\twitter4j-core-4.0.4.jar;%APP_HOME%\lib\twitter4j-stream-4.0.4.jar;%APP_HOME%\lib\bson-3.4.2.jar;%APP_HOME%\lib\mongodb-driver-core-3.4.2.jar
 
 @rem Execute virus-mining
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %VIRUS_MINING_OPTS%  -classpath "%CLASSPATH%" acquisition.App %CMD_LINE_ARGS%
